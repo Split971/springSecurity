@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springSecurity:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a4d2773-0136-4241-958d-169bc62e6a04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_security_custom_user_registration_demo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/config/CustomAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/config/DispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/config/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/controller/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/dao/RoleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/user/CrmUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/validation/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/validation/FieldMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/validation/FieldMatchValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springSecurity/validation/ValidEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persistence-mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/config/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/config/CustomAuthenticationSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/config/DispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/config/SecurityWebApplicationInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/controller/AppController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/controller/RegistrationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/dao/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/dao/RoleDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/user/CrmUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/validation/EmailValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/validation/FieldMatch$List.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/validation/FieldMatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/validation/FieldMatchValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springSecurity/validation/ValidEmail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/META-INF/springSecurity.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/persistence-mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/config/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/config/CustomAuthenticationSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/config/DispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/config/SecurityWebApplicationInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/controller/AppController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/controller/RegistrationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/dao/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/dao/RoleDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/user/CrmUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/validation/EmailValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/validation/FieldMatch$List.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/validation/FieldMatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/validation/FieldMatchValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/classes/springSecurity/validation/ValidEmail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/byte-buddy-1.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/c3p0-0.9.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/hibernate-core-5.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/hibernate-validator-6.0.17.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-aop-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-beans-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-context-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-core-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-expression-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-jcl-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-jdbc-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-orm-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-security-acl-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-security-config-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-security-core-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-security-taglibs-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-security-web-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-tx-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-web-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/spring-webmvc-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/view/access-denied.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/view/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/view/leaders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/view/plain-login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/view/registration-confirmation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/view/registration-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springSecurity/WEB-INF/view/systems.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/access-denied.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/leaders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/plain-login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/registration-confirmation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/registration-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/systems.jsp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>c3</find>
+      <find>registrationError</find>
+      <find>doesUserExist</find>
+      <find>user</find>
+      <find>User</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1Tkx3x9qQ48XWqv5xe5SlBYWFyd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\springSecurity\src\main\resources" />
+      <recent name="C:\projects\springSecurity\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="springSecurity:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/springSecurity_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_springSecurity_8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57834" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springSecurity:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a4d2773-0136-4241-958d-169bc62e6a04" name="Default Changelist" comment="" />
+      <created>1563739959664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563739959664</updated>
+      <workItem from="1563739962216" duration="241000" />
+      <workItem from="1563740225955" duration="130000" />
+      <workItem from="1564211561873" duration="1302000" />
+      <workItem from="1564213364906" duration="1813000" />
+      <workItem from="1564215194270" duration="1791000" />
+      <workItem from="1564217008161" duration="54000" />
+      <workItem from="1564217096278" duration="7000" />
+      <workItem from="1564217313184" duration="1524000" />
+      <workItem from="1564229984555" duration="1790000" />
+      <workItem from="1564231791496" duration="1791000" />
+      <workItem from="1564233601573" duration="1792000" />
+      <workItem from="1564235413239" duration="1788000" />
+      <workItem from="1564237298258" duration="2100000" />
+      <workItem from="1564239644915" duration="1797000" />
+      <workItem from="1564241472874" duration="80000" />
+      <workItem from="1564241758185" duration="1803000" />
+      <workItem from="1564244048206" duration="1789000" />
+      <workItem from="1564245913446" duration="2259000" />
+      <workItem from="1564248265088" duration="331000" />
+      <workItem from="1564256028153" duration="318000" />
+      <workItem from="1564256413366" duration="245000" />
+      <workItem from="1564256742202" duration="127000" />
+      <workItem from="1564257513866" duration="1461000" />
+      <workItem from="1564259318268" duration="41000" />
+      <workItem from="1564259820734" duration="799000" />
+      <workItem from="1564260922400" duration="185000" />
+      <workItem from="1564261124529" duration="83000" />
+      <workItem from="1564261371741" duration="154000" />
+      <workItem from="1564262802467" duration="126000" />
+      <workItem from="1564263444658" duration="593000" />
+      <workItem from="1564300020544" duration="115000" />
+      <workItem from="1564301460849" duration="50000" />
+      <workItem from="1564301635851" duration="599000" />
+      <workItem from="1564321527959" duration="42000" />
+      <workItem from="1574017700381" duration="172000" />
+      <workItem from="1577880840928" duration="921000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>springSecurity:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (springSecurity)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springSecurity</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
